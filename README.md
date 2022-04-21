@@ -17,6 +17,7 @@ Api end points are :
 /*
  ** End point to send a request for sending emails
  */
+ 
 Post: localhost:8080/initiateEmail
 Payload
 {
@@ -28,4 +29,5 @@ Payload
 /*
  ** Sample end point to demonstrate triggering an email release in lieu of messaging implementation
 */
+
 Post: localhost:8080/triggerEmail
