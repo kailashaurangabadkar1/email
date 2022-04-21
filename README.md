@@ -19,6 +19,7 @@ Api end points are :
  */
  
 Post: localhost:8080/initiateEmail
+
 Payload
 {
   "segment_id": 2,
